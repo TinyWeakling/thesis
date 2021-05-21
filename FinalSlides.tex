@@ -1,0 +1,600 @@
+﻿% !Mode:: "TeX:UTF-8"
+\documentclass[mathserif, utf8, 9pt]{beamer}
+\usepackage{eulervm}
+% Setup appearance:
+
+\mode<presentation>
+{
+  %\usetheme{Warsaw}
+  %\usetheme{Darmstadt}
+  %\usetheme{Berkeley}
+  \usetheme{Berlin}
+  \usecolortheme{whale}
+  \setbeamercovered{transparent}
+}
+\hypersetup{pdfpagemode=FullScreen}
+\synctex=1
+\usepackage{xeCJK}
+%
+\setCJKmainfont[Mapping=tex-text]{SimSun}
+\setCJKmonofont[Mapping=tex-text]{SimSun}
+\setmainfont[Mapping=tex-text]{Times}
+\setmonofont[Mapping=tex-text]{Courier New}
+\setsansfont[Mapping=tex-text]{Trebuchet MS}
+
+\setbeamertemplate{caption}[numbered]
+
+% Standard packages
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{subfig}
+
+\XeTeXlinebreaklocale "zh"                      % 针对中文进行断行
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt  % 给予TeX断行一定自由度
+
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+
+% 修改图片显示设置
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\footnotesize}
+\setbeamerfont{captionname}{size=\footnotesize}
+
+% 添加页码
+\newcommand*\oldmacro{}
+\let\oldmacro\insertshorttitle
+\renewcommand*\insertshorttitle{
+\oldmacro \hfill  \leftskip=.3cm
+\insertframenumber\,/\,\inserttotalframenumber}
+
+\title[2013年硕士毕业论文答辩：室内光无线通信技术研究与硬件设计]
+{
+\huge{室内光无线通信技术研究与硬件设计}
+}
+\normalsize
+\author[潘乐园~100645\quad{}\quad{}\quad{}导师：赵春明~教授]
+{
+潘乐园\inst{*}~100645\\
+~\\
+导师：赵春明\inst{*}~教授
+}
+
+\institute[东南大学~移动通信国家重点实验室]
+{
+\inst{*}
+东南大学~~移动通信国家重点实验室\and National Mobile Communications Research Laboratory\and Southeast University\and Nanjing, China, 210096
+\and
+\vskip-2mm
+}
+
+\date[WABI 2010]
+{
+2013年1月17日
+}
+
+% The main document
+
+\begin{document}
+
+% renew command
+\renewcommand\contentsname{目录}
+\renewcommand\listfigurename{插图目录}
+\renewcommand\listtablename{表格目录}
+\renewcommand\refname{参考文献}
+\renewcommand\indexname{索引}
+\renewcommand\figurename{图}
+\renewcommand\tablename{表}
+\renewcommand\abstractname{摘要}
+\renewcommand\partname{部分}
+\renewcommand\appendixname{附录}
+\renewcommand\today{\number\year年\number\month月\number\day日}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}{目录}
+	\tableofcontents
+\end{frame}
+
+\section{研究背景}
+\subsection{室内光无线通信系统概况}
+\begin{frame}{关于光无线通信}
+近年来，随着无线通信技术的高速发展，射频频谱资源越来越紧张，利用现有射频频谱资源进行高速无线通信的实现成本已经越来越高。
+电磁波辐射对人体带来的影响也逐渐受到人们的关注。
+基于发光二极管（LED）的光无线通信系统因“绿色”、“安全”而成为研究热点。
+\pause
+\begin{block}{光无线通信系统与射频无线通信系统的对比}
+\begin{itemize}
+    \item 光：\alert{带宽不受限}；射频：带宽受限（需考虑对其它用户的干扰）
+    \item 光：\alert{保密性好}；射频：保密性差
+    \item 光：\alert{无需牌照}；射频：需要牌照
+    \item 光：\alert{“绿色”、“健康”}；射频：电磁辐射对人体影响大
+    \item 光：\textcolor{blue}{使用能量表达信号}；射频：使用幅度和相位表达信号
+    \item 光：\textcolor{blue}{路径损耗大}；射频：相对于光，路径损耗小
+    \item 光：\textcolor{blue}{噪声源包括热噪声和光噪声}；射频：噪声源主要为热噪声
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{光无线通信的研究成果简介}
+\begin{itemize}
+\item 2008年，Minh等人使用白色LED实现\alert{40Mbps}的通信速率，基带调制方案为OOK[Minh 2008]
+\item 2009年，Minh等人使用白色LED实现\alert{100Mbps}的通信速率，基带调制方案为OOK[Minh 2009]
+\item 2010年，Vucic等人使用白色LED作为发射源，Si-APD作为接收二极管，在使用蓝光滤光片的基础上实现了\alert{230Mbps}的通信速率，基带调制方案为OOK[Vucic 2010]
+\item 2010年，Vucic等人在相同的硬件基础上，使用DCO-OFDM调制方案实现了\alert{513Mbps}的通信速率[Vucic 2010]
+\item 2011年，Vucic等人将磷激发LED更换为RGB三色混光LED，在RGB三个通道中实现了\alert{803Mbps}的总通信速率[Vucic 2011]
+\item 2012年，Kottke等人仅使用RGB三色混光LED中的红色通道实现了\alert{806Mbps}的通信速率，基带调制方案为DCO-OFDM[Kottke 2012]
+\end{itemize}
+\end{frame}
+
+\begin{frame}{光无线通信系统的主要特性}
+    \vspace{-0.5em}
+    \begin{block}{信道特性}
+        \begin{itemize}
+        \item 信号能量衰减正比于距离的\alert{四次方}[Kahn 1997]
+        \item 信道环境一般为\alert{单径LOS低通信道}
+        \item 在不含直达径的环境中通信效率很低
+        \end{itemize}
+    \end{block}
+    \pause
+    \vspace{-0.5em}
+    \begin{block}{光电器件}
+        \begin{itemize}
+        \item 电光器件：\alert{发光二极管（LED）}、激光二极管（LD）
+        \item 光电器件：P-I-N光电二极管（PIN-PD）、雪崩光电二极管（APD）
+        \end{itemize}
+    \end{block}
+    \pause
+    \vspace{-0.5em}
+    \begin{block}{光系统噪声}
+        \begin{itemize}
+        \item 电子元器件的\alert{热噪声}
+        \item 光电二极管的\alert{暗电流噪声}
+        \item \alert{背景光噪声}，包括日光和照明用灯光
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\section{光无线信道建模}
+\subsection{线性光无线信道建模}
+\begin{frame}{线性光无线信道建模基础}
+\begin{block}{线性光无线信道的建模基础与方法}
+\begin{itemize}
+\item   光无线通信系统主要受光传播信道和光电器件的影响：其中光传播信道为线性信道，而光电器件则为非线性系统。
+        \alert{当发射功率较小时，光电器件工作于线性区间，则光系统表现为线性系统，可以在这个条件下建立线性光信道模型[Hranilovic 1999]}。
+\item   建立线性光信道模型的基础是测量光信道时域冲激响应。
+\item   \alert{论文中采用PN序列作为导频测量信道时域冲激响应[Gallager 2002]}。
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}{测量光信道时域冲激响应的理论基础}
+导频信号为PN序列$u_j=\pm a$，满足
+\begin{equation}
+    \sum_{j=1}^n u_j u^*_{j+m} \approx
+    \begin{cases}
+    	na^2,  & m=0 \\
+    	0,     & m\neq 0
+    \end{cases}
+    \quad{}\quad{}
+    = a^2 n \delta_m
+\end{equation}
+
+接收信号为
+\begin{equation}
+	V_m = \sum_{k=0}^{n-1}h_{k,m}u_{m-k} + Z_m
+\end{equation}
+
+将导频信号与接收信号作相关操作，可得
+\begin{equation}
+	K_j = \sum_mV_mu^*_{m+j} = na^2h_{-j} + \sum_m Z_mu^*_{m+j}
+\end{equation}
+
+因此，信道的抽头系数为
+\begin{equation}
+	h_{-j} = \frac{K_{j}}{na^2} + Z'_j
+\end{equation}
+\end{frame}
+
+\begin{frame}{使用PN序列测量信道时域冲激响应的误差分析}
+使用PN序列作为导频测量信道冲激响应的测量误差为
+\begin{equation}
+	Z'_j = \frac{1}{na^2}\sum_{m=-j+1}^{-j+n}Z_mu^*_{m+j}
+\end{equation}
+因为$Z_m \sim N(0, N_0/2)$，其中，$N(\cdot, \cdot)$表示高斯分布，$N_0$表示噪声的功率谱密度，所以，
+\begin{equation}
+    \begin{split}
+    	& E\{Z'_j\} = 0 \\
+    	& VAR\{Z'_j\} = \frac{N_0}{2na^2}
+    \end{split}
+\end{equation}
+其中，$E\{\cdot\}$表示统计期望，$VAR\{\cdot\}$表示统计方差。
+
+从中可以看出，增大$n$的值，即使用长PN序列，可以有效的降低测量误差。
+\end{frame}
+
+\begin{frame}{测量与建模结果（1）}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[width=0.8\textwidth]{figures/chapter-3/PN-TX-RX-250M.png}
+    	\caption{发送的PN序列和接收到的PN序列}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{测量与建模结果（2）}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.8\textheight]{figures/chapter-3/ChannelImpulseResponse.eps}
+    	\caption{光信道时域冲激响应测量结果}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{测量与建模结果（3）}
+    \begin{figure}[htbp]
+        \centering
+        \subfloat[幅频响应]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/ChannelImpulseResponse-AmpFreqResponse.eps}
+        }
+        \subfloat[相频响应]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/ChannelImpulseResponse-PhsFreqResponse.eps}
+        }
+        \caption{光信道时域冲激响应所对应的频域特性}
+    \end{figure}
+\end{frame}
+
+\subsection{非线性光无线信道建模}
+\begin{frame}{非线性光无线信道的建模基础}
+\begin{block}{非线性光无线信道的建模基础与方法}
+\begin{itemize}
+\item   光无线通信信道受发光二极管和接收二极管的影响。
+        \alert{在大功率发射情景下，发光二极管和接收二极管均会出现非线性失真。
+        为了更深入的研究光无线通信信道，需要建立更加符合实际情况的非线性光信道模型。}
+\item   分析模型与\alert{经验模型}[Gharaibeh 2012]。
+\item   论文中采用\alert{经验模型（Three-Box模型）}建立了光无线通信系统的非线性信道模型。
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{非线性光无线信道的建模方法}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[width=0.7\textwidth]{figures/chapter-3/ThreeBoxModel.eps}
+    	\caption{Three-Box模型框图}
+    \end{figure}
+    论文中所采用的经验模型为Three-Box模型，此模型包括三个部分：输入滤波器、输出滤波器和无记忆非线性失真模块。
+    
+    \pause
+    输入输出滤波器的传递函数分别为
+    \begin{equation}
+        H_1(f) = \frac{H_{ss}(f)}{G_{ss}\vert H_{sat}(f)\vert}
+    \end{equation}
+    和
+    \begin{equation}
+        H_2(f) = \frac{H_{sat}(f)}{\vert G_{sat}\vert}
+    \end{equation}
+\end{frame}
+
+\begin{frame}{非线性光无线信道的建模方法（续）}
+    无记忆非线性失真模块的多项式表达式为
+    \begin{equation}
+    	y_n = \sum_{k=1}^N b_k\vert x_n\vert^{k-1}x_n
+    \end{equation}
+    使用矩阵形式表示为
+    \begin{equation}
+    	\mathbf{Y} = \boldsymbol{\Phi}_\mathbf{X} \mathbf{b}
+    \end{equation}
+    使用最小二乘（Least squares, LS）算法拟合出的多项式系数为
+    \begin{equation}
+    	\alert{\mathbf{b} = \Phi_\mathbf{X}^\dag \mathbf{Y}}
+    \end{equation}
+    其中，$\Phi_\mathbf{X}^\dag = (\Phi_\mathbf{X}^\mathbf{H}\Phi_\mathbf{X})^\mathbf{-1}\Phi_\mathbf{X}^\mathbf{H}$表示$\Phi_\mathbf{X}$的Moore-Penrose广义逆。
+\end{frame}
+
+\begin{frame}{测量与建模结果（1）}
+    测得的小信号（Output Power: -20dBm）频率响应结果：
+    \begin{figure}[htbp]
+        \centering
+        \subfloat[幅频响应]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/SmallSignalAmpFreqResponse.eps}
+        }
+        \subfloat[相频响应]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/SmallSignalPhsFreqResponse.eps}
+        }
+        \caption{系统小信号频率响应测量值}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{测量与建模结果（2）}
+    测得的大信号（Output Power: +5dBm）频率响应结果：
+    \begin{figure}[htbp]
+        \centering
+        \subfloat[幅频响应]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/LargeSignalAmpFreqResponse.eps}
+        }
+        \subfloat[相频响应]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/LargeSignalPhsFreqResponse.eps}
+        }
+        \caption{系统大信号频率响应测量值}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{测量与建模结果（3）}
+    测得的功率（Reference Frequency: 10MHz）响应结果：
+    \begin{figure}[htbp]
+        \centering
+        \subfloat[AM-AM参数]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/AmpPowerResponse.eps}
+        }
+        \subfloat[AM-PM参数]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/PhsPowerResponse.eps}
+        }
+        \caption{系统功率响应测量值}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{测量与建模结果（4）}
+    输入输出滤波器的幅频响应与相频响应建模结果：
+    \begin{figure}[htbp]
+        \centering
+        \subfloat[幅频响应]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/ThreeBox-H1H2-gain.eps}
+        }
+        \subfloat[响应频响应]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/ThreeBox-H1H2-angle.eps}
+        }
+        \caption{Three-Box模型输入滤波器$H_1$和输出滤波器$H_2$的频率响应曲线}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{测量与建模结果（5）}
+    使用5阶失真多项式拟合出的非线性失真模块多项式系数为：
+    \begin{table}[htbp]
+        \caption{根据实测参数拟合出的AM-AM和AM-PM失真模块多项式系数}
+        \centering
+        \begin{tabular}{cc}
+            \toprule
+            多项式系数名称 & 多项式系数值\\
+            \midrule
+            $b_1$ & $-0.1273 + 1.0322i$\\
+            $b_3$ & $0.1599 - 0.4940i$\\
+            $b_5$ & $-0.0800 + 0.0695i$\\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+\end{frame}
+
+\begin{frame}{测量与建模结果（6）}
+    实测结果与模型输出结果对比：
+    \begin{figure}[htbp]
+        \centering
+        \subfloat[幅度响应曲线]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/ThreeBox-AMAM.eps}
+        }
+        \subfloat[相位响应曲线]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-3/ThreeBox-AMPM.eps}
+        }
+        \caption{Three-Box模型信道响应与实测值对比图}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{测量与建模结果（7）}
+    建模误差（相对于实测数据）：
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.7\textheight]{figures/chapter-3/ThreeBox-MSE.eps}
+    	\caption{Three-Box模型建立的信道模型的均方误差值(MSE)}
+    	\label{fig:ThreeBoxVSMeasurementMSE}
+    \end{figure}
+\end{frame}
+
+\section{光无线通信中的基带技术研究}
+\subsection{光无线通信中基带调制技术的研究}
+\begin{frame}{光无线通信中的基带调制技术}
+    光无线通信系统是基带直流偏置系统，需要对传统的基带调制方案加以改进。
+    光系统中各种基带调制方案的\alert{带宽效率}和\alert{功率效率}对比如下：
+    \begin{itemize}
+    \item 带宽效率：M-DCO-PAM > NRZ-OOK > RZ-OOK > M-PPM
+    \item 功率效率：M-DCO-PAM > M-PPM > RZ-OOK > NRZ-OOK
+    \item M-PPM的带宽效率随着调制阶数M的提高而下降，但功率效率随着调制阶数的提高而上升
+    \item M-DCO-PAM的带宽效率均随着调制阶数M的提高而上升，但是随着M的提高，需要更高的信噪比才能保证达到相同的误比特率
+    \end{itemize}
+    \alert{在低通系统中，需要很复杂的均衡器才能实现宽带单载波通信，而OFDM技术可以有效地解决这个问题。}
+    
+    \alert{因此，论文基于DCO-OFDM研究了自适应调制技术在光无线通信系统中的应用。}
+\end{frame}
+
+\begin{frame}{自适应调制在光无线通信中的应用}
+    自适应调制（Adaptive modulation, AM）技术可以有效地应对不同的接收信噪比环境，是保证服务质量（QoS）的有效技术。
+    尤其是OFDM调制，可以在不同子载波上分别采用合适的调制方案，自由度更高[Xu 2005]。
+    OFDM中自适应调制的根本原理是，对于每个子载波，根据所估计的等效信噪比选择适当的调制方案，从而在保证整体误比特率的前提下，提高系统频谱效率。
+    \pause
+    \begin{block}{自适应调制算法}
+    \begin{itemize}
+    \item 所选择的目标误比特率为$\text{BER}=2\times10^{-3}$[Vucic 2011]。
+    \item 可选调制方案集合为
+    $
+        \{\text{\small{不传输, BPSK, QPSK, 8-QAM, 16-QAM, 32-QAM, 64-QAM, 128-QAM, 256-QAM}}\}
+    $
+    \item 每种调制方案对应的等效信噪比门限为
+    $
+        \{0, \tilde\gamma_{BPSK}, \tilde\gamma_{QPSK}, \tilde\gamma_{8-QAM}, \tilde\gamma_{16-QAM}, \tilde\gamma_{32-QAM}, \tilde\gamma_{64-QAM}, \tilde\gamma_{128-QAM}, \tilde\gamma_{256-QAM}\}
+    $
+    \item 对于每个子载波，根据计算所得的等效信噪比选择并使用频谱效率尽量高的调制方案。
+    \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{仿真结果（1）}
+    \begin{figure}[htbp]
+        \centering
+        \subfloat[固定调制对应的误比特率性能曲线]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-4/FM-BER.eps}
+        }
+        \subfloat[自适应调制对应的误比特率性能曲线]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-4/AM-BER.eps}
+        }
+        \caption{光无线信道下固定调制与自适应调制对应的误比特率曲线对比图}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{仿真结果（2）}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.7\textheight]{figures/chapter-4/AM-VS-FM-SpectralEfficiency.eps}
+    	\caption{光无线信道下自适应调制(AM)和固定调制(FM)的频谱效率对比图}
+    \end{figure}
+\end{frame}
+
+\subsection{均衡技术在光无线通信中的应用}
+\begin{frame}{数字预均衡}
+在室内光无线通信系统中，可以在估计信道参数之后，在发射端做预均衡，从而有效扩展通频带。
+这里，将不考虑信道估计和信道反馈过程，认为信道估计是理想的，通过推导设计出满足最小二乘（LS）准则的数字预均衡滤波器。
+\pause
+\begin{block}{使用LS准则估计预均衡滤波器系数}
+接收信号为
+\begin{equation}
+    y(n) = x(n) * g(n) * h(n) + z(n)
+\end{equation}
+改写成矩阵形式可得
+\begin{equation}
+    \mathbf{y} = \mathbf{XHg} + \mathbf{z}
+\end{equation}
+使用LS准则估计预均衡滤波器$\mathbf{g}$可得
+\begin{equation}
+    \alert{\hat{\mathbf{g}} = \arg\underset{\mathbf{g}}{\min}\{\|\mathbf{XHg - X}\|^2\} = \mathbf{H^\dag D}}
+\end{equation}
+其中，$\mathbf{H^\dag = (H^HH)^{-1}H^H}$表示信道矩阵$\mathbf{H}$的Moore-Penrose广义逆，$\mathbf{D}=[1,0,\cdots,0]^T$为单位冲激向量。
+\end{block}
+\end{frame}
+
+\begin{frame}{数字预均衡的仿真结果（1）}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.7\textheight]{figures/chapter-4/Pre-Equalizated-Channel.eps}
+    	\caption{预均衡前后信道幅频响应对比图}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{数字预均衡的仿真结果（2）}
+    \begin{figure}[htbp]
+        \centering
+        \subfloat[发送信号]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-4/Pre-Equalization-Transmitting-Signal.eps}
+        }
+        \subfloat[接收信号]{
+            \includegraphics[width=0.5\textwidth]{figures/chapter-4/Pre-Equalization-Received-Signal.eps}
+        }
+        \caption{100Mbps OOK 调制预均衡与不预均衡的接收信号对比图}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{数字预均衡的仿真结果（3）}
+    \begin{figure}[htbp]
+    \centering
+	\includegraphics[height=0.7\textheight]{figures/chapter-4/BER-PreEqualization.eps}
+	\caption{预均衡前后的误比特率对比图}
+\end{figure}
+\end{frame}
+
+\begin{frame}{模拟后均衡}
+    模拟后均衡电路可以有效降低发射机和接收机的基带计算复杂度。
+    虽然无法获得的均衡效果比数字预均衡器差一些，但仍然可以有效地扩展通频带，同时不改变基带计算复杂度。
+    下图给出了一阶模拟后均衡电路结构。
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.4\textheight]{figures/chapter-4/AnalogPostEqualizationCircuits.eps}
+    	\caption{接收前端模拟后均衡电路结构图}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{模拟后均衡电路实测结果}
+    \begin{figure}[htbp]
+    \centering
+    \subfloat[均衡前后信道幅频响应对比]{
+        \includegraphics[width=0.5\textwidth]{figures/chapter-4/EqualizedVSNonEqualizedAmpFreqResponse.eps}
+    }
+    \subfloat[均衡前后信道相频响应对比]{
+        \includegraphics[width=0.5\textwidth]{figures/chapter-4/EqualizedVSNonEqualizedPhsFreqResponse.eps}
+    }
+    \caption{使用模拟均衡器的信道频响与不适用模拟均衡器的信道频响对比图（\alert{$R = 150\Omega$，$C = 100pF$}）}
+\end{figure}
+\end{frame}
+
+\section{光无线通信硬件设计}
+\subsection{光无线通信硬件设计原理}
+\begin{frame}{硬件设计结构}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[width=0.8\textwidth]{figures/chapter-5/VideoTXRX.eps}
+    	\caption{演示平台结构简图}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{发射机设计}
+    \vspace{-0.5em}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.4\textheight]{figures/chapter-5/TransmitterDetails.eps}
+    	\caption{室内光无线通信系统发射机设计方案详细结构图}
+    \end{figure}
+    \vspace{-1.5em}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.35\textheight]{figures/chapter-5/TransmitterPhoto.png}
+    	\caption{室内光无线通信系统发射机实物图}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{接收机设计}
+    \vspace{-0.5em}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.4\textheight]{figures/chapter-5/ReceiverDetails.eps}
+    	\caption{室内光无线通信系统接收机设计方案详细结构图}
+    \end{figure}
+    \vspace{-1.5em}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.35\textheight]{figures/chapter-5/ReceiverPhoto.png}
+    	\caption{室内光无线通信系统接收机实物图}
+    \end{figure}
+\end{frame}
+
+\subsection{光无线通信演示效果}
+\begin{frame}{演示平台效果图}
+    \begin{figure}[htbp]
+        \centering
+    	\includegraphics[height=0.8\textheight]{figures/chapter-5/VideoTransmission.png}
+    	\caption{室内光无线通信系统视频传输演示平台}
+    \end{figure}
+\end{frame}
+
+\section{总结}
+\begin{frame}{总结}
+    论文主要研究内容包括：
+    \begin{itemize}
+        \item 详细介绍了光无线通信系统的结构与特性
+        \item 使用实测数据建立了光无线通信系统的线性和非线性\alert{信道模型}
+        \item 在所建立的信道模型基础之上深入研究了光无线通信中的各种\alert{基带技术}，包括基带高效调制技术、自适应调制技术和均衡技术
+        \item 完成了\alert{硬件验证平台}的设计与调测，验证了光无线通信系统的可实现性
+    \end{itemize}
+\end{frame}
+
+\section*{致谢}
+\begin{frame}
+	\begin{center}
+		\Huge{\bf{谢\quad{}谢~！}}\\
+        \vspace{1em}
+        \Huge{Q\textcolor{gray}{uestion} and A\textcolor{gray}{nswer}}
+	\end{center}
+\end{frame}
+
+
+\end{document}

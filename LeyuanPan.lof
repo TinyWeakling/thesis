@@ -1,0 +1,101 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 光无线通信信道基本模型\relax }}{9}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 光无线通信信道基带基本模型\relax }}{9}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 光无线通信信道冲激响应仿真与实测结果\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 两种白色LED光谱对比图\relax }}{13}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {磷激发LED光谱图}}}{13}{subfigure.2.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RGB三原色混光LED光谱图}}}{13}{subfigure.2.4.2}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 驱动电流与LED产生光强关系图\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces OSTAR白光LED发光辐射方向图\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces PIN-PD管和APD管的光谱响应对比\relax }}{17}{figure.caption.21}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces PIN-PD管反向电流$I_p$和开路电压$V_o$与输入光强$E_v$的关系图\relax }}{17}{figure.caption.22}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces 三极管驱动光发射电路框图\relax }}{19}{figure.caption.24}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 功率放大器驱动光发射电路框图\relax }}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces 光接收电路前端框图\relax }}{20}{figure.caption.26}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces 光通信系统的幅频响应\relax }}{21}{figure.caption.27}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces 光通信系统的相频响应\relax }}{22}{figure.caption.28}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces 当二阶分量恰好为底噪时接收到的电信号\relax }}{22}{figure.caption.29}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces 二阶分量与三阶分量\relax }}{23}{figure.caption.30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 输入FIR滤波器的频率响应\relax }}{28}{figure.caption.31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {幅频响应}}}{28}{subfigure.3.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相频响应}}}{28}{subfigure.3.1.2}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 发送的PN序列和接收到的PN序列\relax }}{29}{figure.caption.32}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 光信道时域冲激响应\relax }}{29}{figure.caption.33}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 光信道时域冲激响应所对应的频域特性\relax }}{30}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {幅频响应}}}{30}{subfigure.3.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相频响应}}}{30}{subfigure.3.4.2}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Three-Box模型框图\relax }}{31}{figure.caption.35}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 系统小信号频率响应测量值\relax }}{33}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {幅频响应}}}{33}{subfigure.3.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相频响应}}}{33}{subfigure.3.6.2}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 系统大信号频率响应测量值\relax }}{33}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {幅频响应}}}{33}{subfigure.3.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相频响应}}}{33}{subfigure.3.7.2}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 系统功率响应测量值\relax }}{34}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {AM-AM参数}}}{34}{subfigure.3.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {AM-PM参数}}}{34}{subfigure.3.8.2}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Three-Box模型输入滤波器$H_1$和输出滤波器$H_2$的频率响应曲线\relax }}{34}{figure.caption.39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {幅频响应}}}{34}{subfigure.3.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {响应频响应}}}{34}{subfigure.3.9.2}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Three-Box模型信道响应与实测值对比图\relax }}{35}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {幅度响应曲线}}}{35}{subfigure.3.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相位响应曲线}}}{35}{subfigure.3.10.2}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Three-Box模型建立的信道模型的均方误差值\relax }}{36}{figure.caption.42}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 各种不同码型的OOK调制示例波形\relax }}{40}{figure.caption.43}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 不同PPM调制方案的示例波形\relax }}{42}{figure.caption.45}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces OOK与M-PPM调制方案的带宽效率和功率效率对比图\relax }}{43}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {带宽效率对比}}}{43}{subfigure.4.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {功率效率对比}}}{43}{subfigure.4.3.2}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 4-PAM的示例波形\relax }}{44}{figure.caption.47}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces M-PAM的带宽效率和功率效率随调制阶数而改变的变化趋势图\relax }}{45}{figure.caption.48}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces OFDM帧结构\relax }}{49}{figure.caption.49}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces OFDM符号子载波分配\relax }}{49}{figure.caption.50}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces AWGN信道下固定调制方式的误比特率性能曲线\relax }}{51}{figure.caption.53}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 光无线信道下固定调制方式的误比特率性能曲线\relax }}{51}{figure.caption.54}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 光无线信道下不同信道估计算法对应的自适应调制误比特率性能曲线\relax }}{52}{figure.caption.55}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces 光无线信道下自适应调制(AM)和固定调制(FM)的频谱效率对比\relax }}{52}{figure.caption.56}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces 预均衡系统框图\relax }}{54}{figure.caption.57}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces 100Mbps OOK 调制预均衡与不预均衡的接收信号对比图\relax }}{56}{figure.caption.58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {发送信号}}}{56}{subfigure.4.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {接收信号}}}{56}{subfigure.4.13.2}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 预均衡前后信道幅频响应对比图\relax }}{56}{figure.caption.59}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 预均衡前后的误比特率对比图\relax }}{57}{figure.caption.60}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces 接收前端模拟后均衡电路结构图\relax }}{58}{figure.caption.61}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces 模拟均衡器的频率响应理论计算结果与实测结果对比图\relax }}{59}{figure.caption.62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {幅频响应}}}{59}{subfigure.4.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相频响应}}}{59}{subfigure.4.17.2}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces 模拟均衡器的频率响应理论计算结果相对于实测结果的均方误差结果\relax }}{60}{figure.caption.63}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces 使用模拟均衡器的信道频响与不适用模拟均衡器的信道频响对比图\relax }}{60}{figure.caption.64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {均衡前后信道幅频响应对比}}}{60}{subfigure.4.19.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {均衡前后信道相频响应对比}}}{60}{subfigure.4.19.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 演示平台结构简图\relax }}{63}{figure.caption.65}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 室内光无线通信系统整体结构框图\relax }}{64}{figure.caption.66}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 室内光无线通信系统发射机设计方案详细结构图\relax }}{65}{figure.caption.67}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 室内光无线通信系统发射机实物图\relax }}{65}{figure.caption.68}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 三极管直接驱动LED发光电路图\relax }}{66}{figure.caption.69}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 功率放大器+Bias-Tee驱动LED发光电路图\relax }}{67}{figure.caption.70}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 发射机基带处理模块关系图\relax }}{67}{figure.caption.71}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 物理传输帧结构\relax }}{68}{figure.caption.72}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces 曼彻斯特码的两种逻辑表示方法\relax }}{69}{figure.caption.73}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 发射帧结构\relax }}{69}{figure.caption.74}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces 发射流程图\relax }}{70}{figure.caption.75}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 室内光无线通信系统接收机设计方案详细结构图\relax }}{71}{figure.caption.76}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces 室内光无线通信系统接收机实物图\relax }}{71}{figure.caption.77}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces 室内光无线通信系统接收机前端跨阻放大器\relax }}{73}{figure.caption.78}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces 室内光无线通信系统接收机高增益放大器和均衡电路\relax }}{74}{figure.caption.79}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces 使用OPA847设计的高增益放大器频率响应测量值\relax }}{74}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {幅频响应}}}{74}{subfigure.5.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相频响应}}}{74}{subfigure.5.16.2}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces 室内光无线通信系统接收机前端自动增益控制放大器\relax }}{75}{figure.caption.81}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces AD807时钟恢复电路原理图\relax }}{75}{figure.caption.82}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces AD807恢复出的时钟波形和数据波形眼图\relax }}{76}{figure.caption.83}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces 9阶巴特沃斯型LC结构无源滤波器电路拓扑结构\relax }}{76}{figure.caption.84}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces 接收机基带处理模块关系图\relax }}{77}{figure.caption.85}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces 接收流程图\relax }}{78}{figure.caption.86}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces 室内光无线通信系统视频传输演示平台\relax }}{79}{figure.caption.87}
+\addvspace {10\p@ }
+\contentsfinish 

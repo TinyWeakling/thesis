@@ -1,0 +1,47 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 光通信链路划分标准\relax }}{9}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 光通信时的平面位置图\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 朗伯辐射模型\relax }}{12}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 室内可见光通信灯组分布基本模型\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 光通信室内灯组分布参数示意图\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 偏重平均光接收功率时的光接收功率分布\relax }}{22}{figure.caption.18}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 偏重平均光接收功率时的光照强度分布\relax }}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 偏重整体均匀度时的光接收功率分布\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 偏重整体均匀度时的光照强度分布\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 综合考量时的光接收功率分布\relax }}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 综合考量时的光照强度分布\relax }}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces FOV值为40时的光接收功率分布\relax }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces FOV值为80时的光接收功率分布\relax }}{27}{figure.caption.25}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 布式灯组网络架构\relax }}{30}{figure.caption.27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 分布式组网光通信系统采用的上下行信道\relax }}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 基于用户运动方向的灯组协同调度算法流程图\relax }}{35}{figure.caption.29}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 仿真中的用户运动轨迹图\relax }}{36}{figure.caption.30}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 最大修正门限值对系统性能的影响\relax }}{37}{figure.caption.31}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 灯组半功率角系数对系统性能的影响\relax }}{38}{figure.caption.32}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 接收视场角对系统性能的影响\relax }}{39}{figure.caption.33}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 系统调度时间对系统性能的影响\relax }}{40}{figure.caption.34}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 用户移动速度对系统性能的影响\relax }}{41}{figure.caption.35}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 多用户复用方式说明图\relax }}{44}{figure.caption.36}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 用户虚拟小区示意图\relax }}{45}{figure.caption.37}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 用户之间的干扰示意图\relax }}{46}{figure.caption.38}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 有向图无向图实例\relax }}{47}{figure.caption.39}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 用户干扰图\relax }}{51}{figure.caption.40}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 用于运动前的子图情况\relax }}{52}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {第一个子图}}}{52}{subfigure.5.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {第二个子图}}}{52}{subfigure.5.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {第三个子图}}}{52}{subfigure.5.6.3}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 用于运动前的子图情况\relax }}{53}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {第一个子图}}}{53}{subfigure.5.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {第二个子图}}}{53}{subfigure.5.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {第三个子图}}}{53}{subfigure.5.7.3}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 用户移动速度对用户SNR分布的影响\relax }}{56}{figure.caption.44}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces 接收视场角对用户SNR分布的影响\relax }}{57}{figure.caption.45}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 用户数对系统容量的影响\relax }}{58}{figure.caption.46}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces 移动用户数对系统容量的影响\relax }}{59}{figure.caption.47}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 移动用户数对调度复杂度的影响\relax }}{60}{figure.caption.48}
+\addvspace {10\p@ }
+\contentsfinish 

@@ -1,0 +1,16 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces 光与射频无线通信系统的主要特性对比\relax }}{8}{table.caption.11}
+\contentsline {table}{\numberline {2.2}{\ignorespaces IEC标准中的光源安全分级\relax }}{11}{table.caption.15}
+\contentsline {table}{\numberline {2.3}{\ignorespaces 不同波段点光源对应的AEL\relax }}{12}{table.caption.16}
+\contentsline {table}{\numberline {2.4}{\ignorespaces 在光无线通信系统中LED与LD的对比\relax }}{16}{table.caption.20}
+\contentsline {table}{\numberline {2.5}{\ignorespaces 在光无线通信系统中PIN-PD管与APD管的对比\relax }}{18}{table.caption.23}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces 根据实测参数拟合出的AM-AM和AM-PM失真模块多项式系数\relax }}{35}{table.caption.40}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces 不同PPM调制方案对应的比特映射\relax }}{42}{table.caption.44}
+\contentsline {table}{\numberline {4.2}{\ignorespaces DCO-OFDM系统仿真参数\relax }}{50}{table.caption.51}
+\contentsline {table}{\numberline {4.3}{\ignorespaces 各种调制方案对应的系统平均信噪比（SNR）门限值（$\text {BER}\leq 2\times 10^{-3}$）\relax }}{50}{table.caption.52}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsfinish 

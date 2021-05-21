@@ -1,0 +1,69 @@
+\contentsline {chapter}{摘要}{I}{section*.1}
+\contentsline {chapter}{Abstract}{III}{section*.3}
+\contentsline {chapter}{插图目录}{VII}{chapter*.7}
+\contentsline {chapter}{表格目录}{IX}{chapter*.8}
+\contentsline {chapter}{缩略词}{XI}{section*.9}
+\contentsline {chapter}{\numberline {1}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}论文的研究背景}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}光无线通信的发展历程}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}OFDM技术在光通信中的应用}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}基带数字信号处理模块简介}{4}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}硕士期间所做工作及本论文内容安排}{4}{section.1.2}
+\contentsline {chapter}{\numberline {2}室内光无线通信系统}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}引言}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}室内光无线通信系统概况}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}光无线通信与射频无线通信的比较}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}光无线通信信道特性}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}人眼安全}{11}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}光电器件}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}电光转换}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}光电转换}{16}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}基本电路原理}{18}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}发射电路}{18}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}接收电路}{19}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}电路基本参数}{20}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}系统噪声简介}{21}{section.2.5}
+\contentsline {section}{\numberline {2.6}本章小结}{23}{section.2.6}
+\contentsline {chapter}{\numberline {3}室内光无线通信信道建模}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}引言}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}使用实测数据建立线性信道模型}{25}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}时域冲激响应的测量原理}{26}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}误差分析}{27}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}测量时域冲激响应}{27}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}使用实测数据建立非线性信道模型}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}非线性系统模型}{30}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}测量信道参数}{32}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}建模结果与结论}{33}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}本章小结}{37}{section.3.4}
+\contentsline {chapter}{\numberline {4}室内光无线通信基带技术的研究}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}引言}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}光通信中高效调制技术的研究}{39}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}二进制调制方案}{40}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}多进制DCO-PAM调制方案}{43}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}多载波调制方案}{45}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}DCO-OFDM中自适应调制的性能研究}{47}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}AM-DCO-OFDM系统模型}{47}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}自适应调制算法}{48}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}性能仿真}{49}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}光通信中均衡技术的研究}{53}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}发射端数字预均衡}{53}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}接收端模拟后均衡}{58}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}本章小结}{61}{section.4.5}
+\contentsline {chapter}{\numberline {5}室内光无线通信系统硬件设计}{63}{chapter.5}
+\contentsline {section}{\numberline {5.1}引言}{63}{section.5.1}
+\contentsline {section}{\numberline {5.2}硬件设计总体结构}{63}{section.5.2}
+\contentsline {section}{\numberline {5.3}发射机设计}{64}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}模拟前端}{66}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}基带处理}{67}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}接收机设计}{70}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}模拟前端}{72}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}基带处理}{77}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}系统验证平台设计}{77}{section.5.5}
+\contentsline {section}{\numberline {5.6}本章小结}{80}{section.5.6}
+\contentsline {chapter}{\numberline {6}全文总结与展望}{81}{chapter.6}
+\contentsline {section}{\numberline {6.1}论文工作总结}{81}{section.6.1}
+\contentsline {section}{\numberline {6.2}进一步的研究方向}{83}{section.6.2}
+\contentsline {chapter}{参考文献}{85}{chapter*.88}
+\contentsline {chapter}{作者简介}{89}{section*.89}
+\contentsline {chapter}{致谢}{91}{section*.91}
+\contentsfinish 
