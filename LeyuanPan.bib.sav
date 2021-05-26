@@ -663,8 +663,6 @@
   timestamp = {2012.08.14}
 }
 
-%begin here by huangxin
-
 @PHDTHESIS{DingJuPeng2005,
   title={可见光通信室内信道建模及性能优化},
   author={丁举鹏},
@@ -691,79 +689,6 @@
   owner = {Xin Huang},
   timestamp = {2014.11.28}
 }
-
-@mastersthesis{ChenRan2013,
-  title={室内照明通信系统的数学模型及其仿真},
-  author={陈然},
-  year={2013},
-  school={南京邮电大学},
-  address = {南京},
-  owner = {Xin Huang},
-  timestamp = {2014.11.28}
-}
-
-@article{DingDeQiang2007,
-  title={VLC系统的光源布局设计与仿真研究},
-  author={丁德强, 柯熙政, 李建勋},
-  journal={光电工程},
-  volume={34},
-  number={1},
-  pages={131--134},
-  year={2007},
-  publisher={光电工程}
-}
-
-@mastersthesis{SongZhengXun2008,
-  title={基于白光LED的室内可见光通信系统研究},
-  author={宋正勋},
-  year={2008},
-  school={长春理工大学},
-  address = {长春},
-  owner = {Xin Huang},
-  timestamp = {2014.11.28}
-}
-
-@ARTICLE{Komine2004,
-    author={Komine, T. and Nakagawa, M.},
-    journal={Consumer Electronics, IEEE Transactions on},
-    title={Fundamental analysis for visible-light communication system using LED lights},
-    year={2004},
-    month={Feb},
-    volume={50},
-    number={1},
-    pages={100-107},
-    doi={10.1109/TCE.2004.1277847},
-    ISSN={0098-3063},
-    owner = {Xin Huang},
-    publisher = {IEEE},
-    timestamp = {2014.11.28}
-}
-
-@INPROCEEDINGS{Azizan2012,
-    author={Azizan, L.A.-H. and Ab-Rahman, M.S. and Jumiran, K.},
-    booktitle={Innovation Management and Technology Research (ICIMTR), 2012 International Conference on},
-    title={Analytical approach on SNR performance of visible light communication for modern lighting layout},
-    year={2012},
-    month={May},
-    pages={332-336},
-    organization = {IEEE},
-    doi={10.1109/ICIMTR.2012.6236413}
-}
-
-@INPROCEEDINGS{6261652,
-    author={Do T.-H. and Yoo M.},
-    booktitle={Ubiquitous and Future Networks (ICUFN), 2012 Fourth International Conference on},
-    title={Received power and SNR optimization for visible light communication system},
-    year={2012},
-    month={July},
-    pages={6-7},
-    doi={10.1109/ICUFN.2012.6261652},
-    ISSN={2165-8528}
-}
-
-
-
-
 
 
 

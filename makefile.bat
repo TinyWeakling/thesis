@@ -1,13 +1,13 @@
 @echo off
 
-xelatex LeyuanPan.tex
+xelatex XinHuang.tex
 
 bibtex xelatex LeyuanPan.bib
 
 bibtex xelatex LeyuanPan.bib
 
-xelatex LeyuanPan.tex
+xelatex XinHuang.tex
 
-xelatex LeyuanPan.tex
+xelatex XinHuang.tex
 
 @echo on

@@ -171,10 +171,12 @@
 所以对于上述的目标函数，还需要引入一定的约束条件，时隙间用户不存在干扰，各用户的虚拟小区间不存在公共的灯组等，所以系统的优化模型就转变为：
 
 \begin{equation}
-    \max \sum_{i=1}^{K}\frac{r_{i,k}}{\overline{r}_{i,k}} \\
-    s.t.\; I_{i} = 0,\; i=1,...,K \\
-        VC_{i} \cap VC_{j} = \emptyset  i,j= 1,...,K and i \ne j  \\
-        \bigcup_{i = 1}^K V{C_i} \subseteq A
+\begin{aligned}
+    \max\quad & \sum_{i=1}^{K}\frac{r_{i,k}}{\overline{r}_{i,k}} \\
+    s.t. \quad & I_{i} = 0,\; i=1,...,K \\
+        & VC_{i} \cap VC_{j} = \emptyset  i,j= 1,...,K and i \ne j  \\
+        & \bigcup_{i = 1}^K V{C_i} \subseteq A
+\end{aligned}
 \end{equation}
 
 其中，$I_{i}$代表用户 接收到的干扰信号，集合$A$代表所有的灯组集。
@@ -189,10 +191,12 @@
 最后，将$r_{i,k}$按公式展开并带入公式（），可以得到用户优选的系统最优化模型：
 
 \begin{equation}
-    \max \sum_{i=1}^{K}\frac{log_{2}(1+\frac{{\sum_{LA_{j} VC_{i}}RP_{recvj}}^2}{I^2+\delta^2})}{\overline{r}_{i,k}} \\
-    s.t.\; I_{i} = 0,\; i=1,...,K \\
-        VC_{i} \cap VC_{j} = \emptyset  i,j= 1,...,K and i \ne j  \\
-        \bigcup_{i = 1}^K V{C_i} \subseteq A
+\begin{aligned}
+    \max\quad & \sum_{i=1}^{K}\frac{log_{2}(1+\frac{{\sum_{LA_{j} VC_{i}}RP_{recvj}}^2}{I^2+\delta^2})}{\overline{r}_{i,k}} \\
+    s.t.\quad & I_{i} = 0,\; i=1,...,K \\
+        & VC_{i} \cap VC_{j} = \emptyset  i,j= 1,...,K and i \ne j  \\
+        & \bigcup_{i = 1}^K V{C_i} \subseteq A
+\end{aligned}
 \end{equation}
 
 \subsubsection{系统模型的解决}
@@ -262,10 +266,6 @@ $d(v_{i})$表示节点$v_{i}$的度，也就是相邻节点集$N(v_{i})$中节�
         \label{fig:slot-1-before-move}
         \includegraphics[width=0.5\textwidth]{figures/chapter-5/UserBeforeMove1.eps}
     }
-    \subfloat[第二个子图]{
-        \label{fig:slot-2-before-move}
-        \includegraphics[width=0.5\textwidth]{figures/chapter-5/UserBeforeMove2.eps}
-    }
     \subfloat[第三个子图]{
         \label{fig:slot-3-before-move}
         \includegraphics[width=0.5\textwidth]{figures/chapter-5/UserBeforeMove3.eps}
@@ -282,10 +282,6 @@ $d(v_{i})$表示节点$v_{i}$的度，也就是相邻节点集$N(v_{i})$中节�
     \subfloat[第一个子图]{
         \label{fig:slot-1-after-move}
         \includegraphics[width=0.5\textwidth]{figures/chapter-5/UserAfterMove1.eps}
-    }
-    \subfloat[第二个子图]{
-        \label{fig:slot-2-after-move}
-        \includegraphics[width=0.5\textwidth]{figures/chapter-5/UserAfterMove2.eps}
     }
     \subfloat[第三个子图]{
         \label{fig:slot-3-after-move}

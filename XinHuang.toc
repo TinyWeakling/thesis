@@ -29,8 +29,8 @@
 \contentsline {subsection}{\numberline {3.2.3}灯组分布优化方案}{19}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}仿真实验及结果分析}{22}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}偏重平均光接收功率的最佳灯组布局}{22}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}偏重整体均匀度的最佳灯组布局}{23}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}综合考量下的最佳灯组布局}{24}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.2}偏重整体均匀度的最佳灯组布局}{22}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}综合考量下的最佳灯组布局}{25}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}用户的接收视场角对最佳灯组布局结果的影响}{26}{subsection.3.3.4}
 \contentsline {section}{\numberline {3.4}本章小结}{27}{section.3.4}
 \contentsline {chapter}{\numberline {4}分布式组网光通信系统的灯组调度}{29}{chapter.4}
@@ -68,16 +68,17 @@
 \contentsline {subsubsection}{\numberline {5.3.3.1}运动用户集合}{52}{subsubsection.5.3.3.1}
 \contentsline {subsubsection}{\numberline {5.3.3.2}子图内用户间干扰}{52}{subsubsection.5.3.3.2}
 \contentsline {subsubsection}{\numberline {5.3.3.3}移动用户最优时隙选择}{53}{subsubsection.5.3.3.3}
-\contentsline {section}{\numberline {5.4}仿真实验及结果分析}{54}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}不同的用户移动速度对用户SNR分布的影响}{55}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.4}仿真实验及结果分析}{55}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}不同的用户移动速度对用户SNR分布的影响}{56}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}不同的接收视场角对用户SNR分布的影响}{57}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}不同的用户数对各调度算法下系统容量的影响}{57}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.3}不同的用户数对各调度算法下系统容量的影响}{58}{subsection.5.4.3}
 \contentsline {subsection}{\numberline {5.4.4}不同的移动用户数对各调度算法下系统容量的影响}{59}{subsection.5.4.4}
 \contentsline {subsection}{\numberline {5.4.5}不同的移动用户数对各调度算法下复杂度的影响}{60}{subsection.5.4.5}
 \contentsline {section}{\numberline {5.5}本章小结}{61}{section.5.5}
 \contentsline {chapter}{\numberline {6}全文总结与展望}{63}{chapter.6}
 \contentsline {section}{\numberline {6.1}论文全文总结}{63}{section.6.1}
 \contentsline {section}{\numberline {6.2}进一步的研究方向}{64}{section.6.2}
-\contentsline {chapter}{作者简介}{65}{section*.49}
-\contentsline {chapter}{致谢}{67}{section*.51}
+\contentsline {chapter}{参考文献}{65}{chapter*.49}
+\contentsline {chapter}{作者简介}{67}{section*.50}
+\contentsline {chapter}{致谢}{69}{section*.52}
 \contentsfinish 

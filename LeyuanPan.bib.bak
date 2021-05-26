@@ -750,15 +750,16 @@
     doi={10.1109/ICIMTR.2012.6236413}
 }
 
-@INPROCEEDINGS{6261652,
-    author={Do T.-H. and Yoo M.},
-    booktitle={Ubiquitous and Future Networks (ICUFN), 2012 Fourth International Conference on},
-    title={Received power and SNR optimization for visible light communication system},
-    year={2012},
-    month={July},
-    pages={6-7},
-    doi={10.1109/ICUFN.2012.6261652},
-    ISSN={2165-8528}
+@INPROCEEDINGS{LeMinh2008a,
+  author = {Le Minh, H. and O'Brien, D. and Faulkner, G. and Zeng, L. and Lee,
+	K. and Jung, D. and Oh, Y.J.},
+  title = {80 Mbit/s visible light communications using pre-equalized white
+	LED},
+  booktitle = {Optical Communication, 2008. ECOC 2008. 34th European Conference
+	on},
+  year = {2008},
+  pages = {1--2},
+  organization = {IEEE}
 }
 
 

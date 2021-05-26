@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2014.6.12)  27 NOV 2014 16:17
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2014.6.12)  27 NOV 2014 22:28
 entering extended mode
 **XinHuang.tex
 (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\XinHuang.tex
@@ -1522,8 +1522,8 @@ Unknown feature `' in font `Times New Roman Bold'.
 Unknown feature `' in font `SimSun'.
 Unknown feature `' in font `SimSun'.
 
-Overfull \hbox (2.50583pt too wide) detected at line 3
- \EU1/TimesNewRoman(0)/bx/n/12 VII
+Overfull \hbox (7.17575pt too wide) detected at line 5
+ \EU1/TimesNewRoman(0)/bx/n/12 XIII
  []
 
 
@@ -1656,52 +1656,101 @@ Underfull \vbox (badness 4429) has occurred while \output is active []
  [19]
 File: figures/chapter-3/LedLayoutDI.eps Graphic file (type eps)
 
-<figures/chapter-3/LedLayoutDI.eps> [20]
-Overfull \hbox (101.52347pt too wide) detected at line 108
-[]\OML/cmm/m/it/12 max [] \OT1/cmr/m/n/12 //\OML/cmm/m/it/12 s:t: \OT1/cmr/m/n/
-12 300 \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 minE[]\OT1/cmr/m/n/12 (\OML/cmm/m/
-it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 maxE[]\OT1/cmr/m
-/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OT1/cmr/m/n/12
- 1800//0 \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 d \OMS/cmsy/m/n/12 ^^T \OT1/cmr/
-m/n/12 2//0 \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 i \OMS/cmsy/m/n/12 ^^T \OT1/c
-mr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 04//\OML/cmm/m/it/12 d \OT1/cmr/m/
-n/12 + [] \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 i \OMS/cmsy/m/n/12 ^^T \OML/cmm
-/m/it/12 L
- []
-
-[21]
+<figures/chapter-3/LedLayoutDI.eps> [20] [21]
+Invalid UTF-8 byte or sequence at line 168 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 168 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 168 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 168 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 168 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 168 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 168 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 168 replaced by U+FFFD.
 File: figures/chapter-3/PowerFirstPower.eps Graphic file (type eps)
- <figures/chapter-3/PowerFirstPower.eps>
+
+<figures/chapter-3/PowerFirstPower.eps>
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 175 replaced by U+FFFD.
 File: figures/chapter-3/PowerFirstIllu.eps Graphic file (type eps)
-
-<figures/chapter-3/PowerFirstIllu.eps> [22]
+ <figures/chapter-3/PowerFirstIllu.eps>
+[22]
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
 File: figures/chapter-3/BalanceFirstPower.eps Graphic file (type eps)
-
-<figures/chapter-3/BalanceFirstPower.eps>
+ <figures/chapter-3/BalanceFirstPower.eps>
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
 File: figures/chapter-3/BalanceFirstIllu.eps Graphic file (type eps)
 
-<figures/chapter-3/BalanceFirstIllu.eps>
+<figures/chapter-3/BalanceFirstIllu.eps> [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [24]
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
 File: figures/chapter-3/BestPower.eps Graphic file (type eps)
 
 <figures/chapter-3/BestPower.eps>
+Invalid UTF-8 byte or sequence at line 227 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 227 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 227 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 227 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 227 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 227 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 227 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 227 replaced by U+FFFD.
 File: figures/chapter-3/BestIllu.eps Graphic file (type eps)
- <figures/chapter-3/BestIllu.eps> [24]
-Underfull \vbox (badness 8000) has occurred while \output is active []
-
- [25]
+ <figures/chapter-3/BestIllu.eps> [25]
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
 File: figures/chapter-3/Fov40Power.eps Graphic file (type eps)
 
 <figures/chapter-3/Fov40Power.eps>
+Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
 File: figures/chapter-3/Fov80Power.eps Graphic file (type eps)
- <figures/chapter-3/Fov80Power.eps> [26])
-[27] (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\chapter-4.tex [28
+ <figures/chapter-3/Fov80Power.eps>
+Underfull \vbox (badness 1412) has occurred while \output is active []
 
+ [26])
+Underfull \vbox (badness 1215) has occurred while \output is active []
 
-
-]
+ [27]
+[28] (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\chapter-4.tex
 第\CJKnumber {4}章 4.
 File: figures/chapter-4/DistributionOverView.eps Graphic file (type eps)
 <figures/chapter-4/DistributionOverView.eps>
@@ -1710,7 +1759,11 @@ File: figures/chapter-4/DistributionChannel.eps Graphic file (type eps)
 <figures/chapter-4/DistributionChannel.eps>
 Underfull \vbox (badness 2080) has occurred while \output is active []
 
- [29]
+ [29
+
+
+
+]
 [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1727,23 +1780,59 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
 [35]
+Invalid UTF-8 byte or sequence at line 188 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 188 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 188 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 188 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 188 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 188 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 188 replaced by U+FFFD.
 File: figures/chapter-4/DistributionBiggestModify.eps Graphic file (type eps)
  <figures/chapter-4/DistributionBiggestModify.eps> [36]
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
 File: figures/chapter-4/DistributionLedParam.eps Graphic file (type eps)
 
 <figures/chapter-4/DistributionLedParam.eps> [37]
+Invalid UTF-8 byte or sequence at line 228 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 228 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 228 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 228 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 228 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 228 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 228 replaced by U+FFFD.
 File: figures/chapter-4/DistributionUserFov.eps Graphic file (type eps)
 
 <figures/chapter-4/DistributionUserFov.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
 File: figures/chapter-4/DistributionSchTime.eps Graphic file (type eps)
 
 <figures/chapter-4/DistributionSchTime.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
 File: figures/chapter-4/DistributionUserSpeed.eps Graphic file (type eps)
 
 <figures/chapter-4/DistributionUserSpeed.eps>
@@ -1759,61 +1848,64 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [43]
 File: figures/chapter-5/IssMultiUserComm.eps Graphic file (type eps)
  <figures/chapter-5/IssMultiUserComm.eps>
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
 File: figures/chapter-5/UserInterference.eps Graphic file (type eps)
 
 <figures/chapter-5/UserInterference.eps> [44]
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
 File: figures/chapter-5/UserInterferenceShow.eps Graphic file (type eps)
 
 <figures/chapter-5/UserInterferenceShow.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
-Underfull \vbox (badness 5460) has occurred while \output is active []
+Underfull \vbox (badness 7759) has occurred while \output is active []
 
  [46]
 File: figures/chapter-5/GraphExample.eps Graphic file (type eps)
 
-<figures/chapter-5/GraphExample.eps> [47] [48]
-Overfull \hbox (81.93307pt too wide) detected at line 196
-[] [] [] [][] \OML/cmm/m/it/12 s:t: I[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ;  
-i \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ; :::; K[] VC[] \OMS/cmsy/m/n/12 \ \OML/c
-mm/m/it/12 VC[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ;\OML/cmm/m/it/12 i; j \OT1/
-cmr/m/n/12 = 1\OML/cmm/m/it/12 ; :::; Kandi \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 =
- \OML/cmm/m/it/12 j[]  [] V[] \OMS/cmsy/m/n/12 ^^R \OML/cmm/m/it/12 A
- []
-
-[49]
+<figures/chapter-5/GraphExample.eps> [47] [48] [49]
 File: figures/chapter-5/InterferenceGraph.eps Graphic file (type eps)
- <figures/chapter-5/InterferenceGraph.eps> [50] [51]
+
+<figures/chapter-5/InterferenceGraph.eps> [50] [51]
 File: figures/chapter-5/UserBeforeMove1.eps Graphic file (type eps)
 
 <figures/chapter-5/UserBeforeMove1.eps>
-File: figures/chapter-5/UserBeforeMove2.eps Graphic file (type eps)
-
-<figures/chapter-5/UserBeforeMove2.eps>
 File: figures/chapter-5/UserBeforeMove3.eps Graphic file (type eps)
 
 <figures/chapter-5/UserBeforeMove3.eps>
-Overfull \hbox (244.0471pt too wide) in paragraph at lines 264--273
- [][][][][][] 
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 268--273
+ [][][][] 
+ []
+
+File: figures/chapter-5/UserAfterMove1.eps Graphic file (type eps)
+<figures/chapter-5/UserAfterMove1.eps>
+File: figures/chapter-5/UserAfterMove3.eps Graphic file (type eps)
+ <figures/chapter-5/UserAfterMove3.eps>
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 285--290
+ [][][][] 
  []
 
 [52]
-File: figures/chapter-5/UserAfterMove1.eps Graphic file (type eps)
- <figures/chapter-5/UserAfterMove1.eps>
-File: figures/chapter-5/UserAfterMove2.eps Graphic file (type eps)
+Underfull \vbox (badness 1199) has occurred while \output is active []
 
-<figures/chapter-5/UserAfterMove2.eps>
-File: figures/chapter-5/UserAfterMove3.eps Graphic file (type eps)
- <figures/chapter-5/UserAfterMove3.eps>
-Overfull \hbox (244.0471pt too wide) in paragraph at lines 285--294
- [][][][][][] 
- []
-
-[53] [54]
+ [53]
+[54] [55]
 File: figures/chapter-5/Speed2Snr.eps Graphic file (type eps)
- <figures/chapter-5/Speed2Snr.eps> [55]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <figures/chapter-5/Speed2Snr.eps>
+Underfull \vbox (badness 1389) has occurred while \output is active []
 
  [56]
 File: figures/chapter-5/Fov2Snr.eps Graphic file (type eps)
@@ -1821,19 +1913,16 @@ File: figures/chapter-5/Fov2Snr.eps Graphic file (type eps)
 <figures/chapter-5/Fov2Snr.eps> [57]
 File: figures/chapter-5/Usernum2Capacity.eps Graphic file (type eps)
  <figures/chapter-5/Usernum2Capacity.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
+[58]
 File: figures/chapter-5/MovingUserNum2Capacity.eps Graphic file (type eps)
+ <figures/chapter-5/MovingUserNum2Capacity.eps>
+Underfull \vbox (badness 1178) has occurred while \output is active []
 
-<figures/chapter-5/MovingUserNum2Capacity.eps> [59]
+ [59]
 File: figures/chapter-5/MovingUserNum2Complexity.eps Graphic file (type eps)
 
-<figures/chapter-5/MovingUserNum2Complexity.eps>)
-Underfull \vbox (badness 2846) has occurred while \output is active []
-
- [60]
-[61] (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\chapter-6.tex [62
+<figures/chapter-5/MovingUserNum2Complexity.eps> [60]) [61]
+(C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\chapter-6.tex [62
 
 
 
@@ -1843,30 +1932,32 @@ Underfull \vbox (badness 2846) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63])
-[64]
-No file XinHuang.bbl.
-No file XinHuang.ind.
-(C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\Resume.tex
-Unknown feature `' in font `Times New Roman Bold'.
-) [65
-
-
-
+[64] (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\XinHuang.bbl) [65
 
 
 
 
 ]
-(C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\Acknowledgement.tex [66
+No file XinHuang.ind.
+(C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\Resume.tex [66
+
+
+
+]
+Unknown feature `' in font `Times New Roman Bold'.
+) [67
+
+]
+(C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\Acknowledgement.tex [68
 
 
 
 ])
-[67
+[69
 
 ]
 File: figures/back-cover.png Graphic file (type QTm)
- <use  "figures/back-cover.png" > [68
+ <use  "figures/back-cover.png" > [70
 
 
 ]
@@ -1888,12 +1979,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 22473 strings out of 430486
- 357157 string characters out of 3191694
- 527122 words of memory out of 3000000
+ 22475 strings out of 430486
+ 357187 string characters out of 3191694
+ 527009 words of memory out of 3000000
  25082 multiletter control sequences out of 15000+200000
- 17003 words of font info for 129 fonts, out of 3000000 for 9000
+ 17011 words of font info for 130 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,14n,76p,769b,855s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,14n,76p,769b,883s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on XinHuang.pdf (90 pages).
+Output written on XinHuang.pdf (92 pages).
