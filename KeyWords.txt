@@ -1,2 +1,0 @@
-光无线通信, 可见光通信, 光信道建模, OFDM, 自适应调制, 均衡, 光系统硬件设计
-OWC, VLC, Optical Channel Modeling, OFDM, Adaptive Modulation, Equalization, OWC Hardware Design
