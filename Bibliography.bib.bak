@@ -1,0 +1,115 @@
+% This file was created with JabRef 2.6.
+% Encoding: UTF8
+
+@MISC{seucover,
+  author = {hbsjzzxgssb},
+  title = {东南大学学位论文封面},
+  year = {2007},
+  language = {Chinese},
+  typeoflit = {EB/OL}
+}
+
+@INPROCEEDINGS{VucicKottke-132,
+  author = {Vucic, J. and Kottke, C. and Nerreter, S. and Habel, K. and Buttner,
+	A. and Langer, K. D. and Walewski, J. W.},
+  title = {230 Mbit/s via a wireless visible-light link based on OOK modulation
+	of phosphorescent white LEDs},
+  year = {2010},
+  pages = {1--3}
+}
+
+@INPROCEEDINGS{5465440,
+  author = {Vucic, J. and Kottke, C. and Nerreter, S. and Habel, K. and Buttner,
+	A. and Langer, K.-D. and Walewski, J.W.},
+  title = {230 Mbit/s via a wireless visible-light link based on OOK modulation
+	of phosphorescent white LEDs},
+  booktitle = {Optical Fiber Communication (OFC), collocated National Fiber Optic
+	Engineers Conference, 2010 Conference on (OFC/NFOEC)},
+  year = {2010},
+  pages = {1 -3},
+  month = {march},
+  keywords = {OOK modulation;bit rate 230 Mbit/s;bit-error-ratios;illuminance levels;on-off-keying;phosphorescent
+	white LED;wireless visible-light link;amplitude shift keying;indoor
+	radio;light emitting diodes;phosphorescence;radio links;}
+}
+
+@MISC{wloo,
+  author = {wloo},
+  title = {用LaTeX写漂亮学位论文},
+  year = {2005},
+  language = {Chinese},
+  typeoflit = {EB/OL},
+  url = {http://ymei.freeshell.org/WebWiki/Computer/ThesisWithLaTeX.html}
+}
+
+@CONFERENCE{YuichiTanaka2000,
+  author = {Yuichi Tanaka, Shinichirou Haruyama, Masao Nakagawa},
+  title = {Wireless optical transmissions with white colored LED for wireless
+	home links},
+  booktitle = {The 11th IEEE International Symposium},
+  year = {2000},
+  volume = {2},
+  pages = {1325 -- 1329},
+  file = {:E\:\\SkyDrive\\Documents\\硕士毕业论文\\papers\\Wireless optical transmissions with white colored LED for wireless home links.pdf:PDF},
+  owner = {Michael},
+  timestamp = {2012.08.14}
+}
+
+@MISC{seugs:standard,
+  author = {东南大学研究生院},
+  title = {东南大学研究生学位论文的格式规定（试行）},
+  year = {2011},
+  language = {Chinese},
+  typeoflit = {EB/OL},
+  url = {http://seugs.seu.edu.cn/s/97/t/1707/aa/64/info43620.htm}
+}
+
+@BOOK{GBT7714-2005,
+  title = {中华任命共和国国家标准－文后参考文献著录规则},
+  publisher = {中国标准出版社},
+  year = {2005},
+  author = {中华人民共和国国家质量监督检验检疫总局，中国国家标准化管理委员会},
+  address = {北京},
+  edition = {GB/T 7714-2005},
+  language = {Chinese}
+}
+
+@MISC{wkbst,
+  author = {吴凯},
+  title = {GBT7714-2005.bst：利用BibTEX生成符合GB/T 7714-2005的参考文献},
+  year = {2006},
+  language = {Chinese},
+  typeoflit = {EB/OL}
+}
+
+@MISC{xrn:howtopackage,
+  author = {薛瑞尼},
+  title = {如何编写宏包},
+  year = {2005},
+  language = {Chinese},
+  typeoflit = {EB/OL},
+  url = {http://learn.tsinghua.edu.cn:8080/2003214890/publish/TeX/Doc.html}
+}
+
+@MISC{xrn:thuthesis,
+  author = {薛瑞尼},
+  title = {ThuThesis:清华大学学位论文模板},
+  year = {2005},
+  language = {Chinese},
+  typeoflit = {EB/OL}
+}
+
+@ARTICLE{顾玉娟2006,
+  author = {顾玉娟},
+  title = {无线光通信技术研究},
+  journal = {山东通信技术},
+  year = {2006},
+  volume = {26},
+  pages = {31-34},
+  number = {4},
+  month = {11},
+  file = {:E\:\\SkyDrive\\Documents\\硕士毕业论文\\papers\\无线光通信技术研究.pdf:PDF},
+  owner = {Michael},
+  timestamp = {2012.08.14}
+}
+

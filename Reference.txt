@@ -1,0 +1,105 @@
+1 Tanaka Y, Haruyama S, Nakagawa M. Wireless optical transmissions with white colored LED for wireless home links[C]. In: Personal, Indoor and Mobile Radio Communications, 11th IEEE International Symposium. 2000. 2:1325 – 1329.
+
+2 Tanaka Y, Komine T, Haruyama S, et al. Indoor visible communication utilizing plural white LEDs as lighting[C]. In: Personal, Indoor and Mobile Radio Communications, 12th IEEE International Symposium. 2001. 2.
+
+3 Fan K, Komine T, Tanaka Y, et al. The effect of reflection on indoor visible-light communication system utilizing white LEDs[C]. In: Wireless Personal Multimedia Communications, The 5th International Symposium. 2002. 2:611 – 615.
+
+4 顾玉娟. 无线光通信技术研究 [J]. 山东通信技术, 2006, 26(4):31 – 34.
+
+5 MinhHL,O’BrienD,FaulknerG,etal. High-speedvisiblelightcommunicationsusingmultiple-resonant equalization[J]. IEEE Photonics Technology Letters, 2008, 20(14):1243–1245.
+
+6 Minh H L, O’Brien D, Faulkner G, et al. 100-Mb/s NRZ visible light communications using a postequalized white LED[J]. IEEE Photonics Technology Letters, 2009, 21(15):1063–1065.
+
+7 Vucic J, Kottke C, Nerreter S, et al. 230 Mbit/s via a wireless visible-light link based on OOK modulation of phosphorescent white LEDs[C]. In: Optical Fiber Communication (OFC), collocated National Fiber Optic Engineers Conference, 2010 Conference on (OFC/NFOEC). 2010. 1–3.
+
+8 Vucic J, Kottke C, Nerreter S, et al. 513 Mbit/s visible light communications Link based on DMT-modulation of a white LED[J]. Journal of Lightwave Technology, 2010, 28(24):3512–3518.
+
+9 VucicJ,KottkeC,HabelK,etal. 803Mbit/svisiblelightWDMlinkbasedonDMTmodulationofasingle RGB LED luminary[C]. In: Optical Fiber Communication Conference and Exposition (OFC/NFOEC), 2011 and the National Fiber Optic Engineers Conference. 2011. 1–3.
+
+10 Kottke C, Habel K, Grobe L, et al. Single-channel wireless transmission at 806 Mbit/s using a white-light LED and a PIN-based receiver[C]. In: Transparent Optical Networks (ICTON), 2012 14th International Conference on. 2012. 1–4.
+
+11 Chang R W. Synthesis of band-limited orthogonal signals for multichannel data transmission[J]. Bell System Technical Journal, 1966, 45:1775–1796.
+
+12 Weinstein S, Ebert P. Data transmission by frequency-division multiplexing using the discrete fourier transform[J]. IEEE Transactions on Communications, 1971, COM-19:628–634.
+
+13 Starr T, Sorbara M, Cioffi J, et al. DSL advances[M]. Upper Saddle River, New Jersey: Prentice Hall, 2003.
+
+14 王闻今. 宽带无线通信迭代接收技术研究 [D]:[博士学位论文]. 南京: 东南大学, 2011.
+
+15 Lee B, Cioffi J, Jagannathan S, et al. Gigabit DSL[J]. Communications, IEEE Transactions on, 2007, 55(9):1689–1692.
+
+16 Cimini L J. Analysis and simulation of a digital mobile channel using orthogonal frequency division multiplexing[J]. IEEE Transactions on Communications, 1985, 3:665–675.
+
+17 Mignone V, Morello A. CD3-OFDM: A novel demodulation scheme for fixed and mobile receivers[J]. IEEE Transactions on Communications, 1996, 44(7):1144–1151.
+
+18 OhtsukiT. Multiple-subcarriermodulationinopticalwirelesscommunications[J]. Communications Magazine, IEEE, 2003, 41(3):74–79.
+
+19 Gonzalez O, Perez-Jimenez R, Rodriguez S, et al. OFDM over indoor wireless optical channel[C]. In: Optoelectronics, IEE Proceedings-. 2005. 152:199–204.
+
+20 Hashemi S, Ghassemlooy Z, Chao L, et al. Orthogonal frequency division multiplexing for indoor optical wirelesscommunicationsusingvisiblelightLEDs[C]. In: CommunicationSystems,NetworksandDigital Signal Processing, 2008. CNSDSP 2008. 6th International Symposium on. 2008. 174–178.
+
+21 Armstrong J. OFDM for optical communications[J]. Journal of Lightwave Technology, 2009, 27(3):189–204.
+
+22 Grubor J, Langer K. Efficient signal processing in OFDM-based indoor optical wireless links[J]. Journal of Networks, 2010, 5(2):197–211.
+
+23 Mesleh R, Elgala H, Haas H. On the Performance of Different OFDM Based Optical Wireless Communication Systems[J]. Journal of Optical Communications and Networking, 2011, 3(8):620–628.
+
+24 Armstrong J, Lowery A J. Power efficient optical OFDM[J]. Electronics Letters, 2006, 42(6):370–372.
+
+25 Armstrong J A, Schmidt B J C. Comparison of asymmetrically clipped optical OFDM and DC-biased optical OFDM in AWGN[J]. IEEE Communications Letters, 2008, 12(5):343–345.
+
+26 Kahn J, Barry J. Wireless infrared communications[J]. Proceedings of the IEEE, 1997, 85(2):265–298.
+
+27 Hranilovic S. Modulation and constrained coding techniques for wireless infrared communication channels[D]:[Master’s Thesis]. Toronto: University of Toronto, 1999.
+
+28 International Electrotechnical Commission. Safety of laser products - Part 1: Equipment classification and requirements[M]. 1993.
+
+29 Heatley D, Wisely D, Neild I, et al. Optical wireless: The story so far[J]. Communications Magazine, IEEE, 1998, 36(12):72–74.
+
+30 张立. 基于 LED 照明灯的室内无线光通信双工系统研究 [D]:[硕士学位论文]. 镇江: 江苏大学, 2010.
+
+31 OSRAM Opto Semiconductors. OSRAM OSTAR - Lighting plus LE UW S2LN[G]. 2011.
+
+32 OSRAM Opto Semiconductors. OSRAM Multi CHIPLED LRTB R98G[G]. 2011.
+
+33 Javadi K. What is a diode / What does a diode do / LEDs and Laser Diodes[EB/OL]. http://www.askkia.com/articles/what-is-a-diode.html, 2005.
+
+34 Paschotta R. Laser diodes[EB/OL]. http://www.rp-photonics.com/laser_diodes.html, 2012.
+
+35 Kressel H, Ettenberg M, Wittke J, et al. Laser diodes and LEDs for fiber optical communication[J]. Semiconductor Devices for Optical Communication, 1982:9–62.
+
+36 OSRAM Opto Semiconductors. Silicon PIN Photodiode SFH 213 (FA)[G]. 2011.
+
+37 Microelectronics S. General IR and photodetector information[R]. Application note 37, http://www.infineon.com/products/37/37.html, 1997.
+
+38 McCullagh M, Wisely D. 155 Mbit/s optical wireless link using a bootstrapped silicon APD receiver[J]. Electronics Letters, 1994, 30(5):430–432.
+
+39 Walrand J, Varaiya P. High-performance communication networks[M]. San Francisco, California: Morgan Kaufmann, 1999.
+
+40 GallagerR,ZhengL.2002(December). ChannelmeasurementandRakereceivers,IntroductiontoDigital Communication, MIT Course, 6.450, Fall 2002.
+
+41 Gharaibeh K M. Nonlinear distortion in wireless systems:modeling and simulation with MATLAB[M]. Chichester, West Sussex: John Wiley & Sons, Ltd., 2012.
+
+42 庞大勇, 朴大志. 光通信中几种调制方式的性能比较 [J]. 桂林电子工业学院学报, 2002, 22:1 – 4.
+
+43 Armstrong J, Schmidt B J, Kalra D K, et al. Performance of asymmetrically clipped optical OFDM in AWGN for an intensity modulated direct detection system[C]. In: GLOBECOM’06. IEEE. 2006. 1–5.
+
+44 Proakis J G. Digital Communications[M]. Fifth. Hightstown, New Jersey and Beijing: MacGraw-Hill Education Co. and Publishing House of Electronics Industry, 2009.
+
+45 许威. 未来移动通信系统中的自适应调制技术 [D]:[硕士学位论文]. 南京: 东南大学, 2005.
+
+46 杨逾山. LTE 系统中的信道估计技术研究 [D]:[硕士学位论文]. 南京: 东南大学, 2010.
+
+47 潘乐园. LTE 系统下行链路中信道估计的研究 [D]:[学士学位论文]. 南京: 东南大学, 2010.
+
+48 Le Minh H, O’Brien D, Faulkner G, et al. High-speed visible light communications using multiple-resonant equalization[J]. Photonics Technology Letters, IEEE, 2008, 20(14):1243–1245.
+
+49 Le Minh H, O’Brien D, Faulkner G, et al. 80 Mbit/s visible light communications using pre-equalized white LED[C]. In: Optical Communication, 2008. ECOC 2008. 34th European Conference on. 2008. 1–2.
+
+50 StevensW,WrightG. TCP/IPIllustrated: theprotocols[M]. Vol.1. Boston: Addison-WesleyProfessional, 1994.
+
+51 Wikipedia. Manchester code[EB/OL]. http://en.wikipedia.org/wiki/Manchester_encoding, 2012.
+
+52 Wikipedia. 8B/10B encoding[EB/OL]. http://en.wikipedia.org/wiki/8b/10b_encoding, 2012.
+
+53 百度百科. 8B/10B 编码 [EB/OL]. http://baike.baidu.com/view/1250004.htm, 2012.
