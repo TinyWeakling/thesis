@@ -723,7 +723,7 @@
   timestamp = {2014.11.28}
 }
 
-@ARTICLE{Komine2004,
+@ARTICLE{KomineT2004,
     author={Komine, T. and Nakagawa, M.},
     journal={Consumer Electronics, IEEE Transactions on},
     title={Fundamental analysis for visible-light communication system using LED lights},
@@ -739,7 +739,7 @@
     timestamp = {2014.11.28}
 }
 
-@INPROCEEDINGS{Azizan2012,
+@INPROCEEDINGS{AzizanLA2012,
     author={Azizan, L.A.-H. and Ab-Rahman, M.S. and Jumiran, K.},
     booktitle={Innovation Management and Technology Research (ICIMTR), 2012 International Conference on},
     title={Analytical approach on SNR performance of visible light communication for modern lighting layout},
@@ -750,20 +750,159 @@
     doi={10.1109/ICIMTR.2012.6236413}
 }
 
-@INPROCEEDINGS{LeMinh2008a,
-  author = {Le Minh, H. and O'Brien, D. and Faulkner, G. and Zeng, L. and Lee,
-	K. and Jung, D. and Oh, Y.J.},
-  title = {80 Mbit/s visible light communications using pre-equalized white
-	LED},
-  booktitle = {Optical Communication, 2008. ECOC 2008. 34th European Conference
-	on},
-  year = {2008},
-  pages = {1--2},
-  organization = {IEEE}
+@INPROCEEDINGS{DoTH2012,
+    author={Do T.-H. and Yoo M.},
+    booktitle={Ubiquitous and Future Networks (ICUFN), 2012 Fourth International Conference on},
+    title={Received power and SNR optimization for visible light communication system},
+    year={2012},
+    month={July},
+    pages={6-7},
+    doi={10.1109/ICUFN.2012.6261652},
+    ISSN={2165-8528}
 }
 
+@ARTICLE{DingJP20121,
+    author={Ding, J.P. and Ji, Y.F.},
+    journal={Optoelectronics, IET},
+    title={Evolutionary algorithm-based optimisation of the signal-to-noise ratio for indoor visible-light communication utilising white light-emitting diode},
+    year={2012},
+    month={December},
+    volume={6},
+    number={6},
+    pages={307-317},
+    doi={10.1049/iet-opt.2012.0044},
+    ISSN={1751-8768}
+}
 
+@article{DingJP20122,
+  title={Evolutionary algorithm based uniform received power and illumination rendering for indoor visible light communication},
+  author={Ding, J.P. and Huang, Z.T. and Ji, Y.F.},
+  journal={JOSA A},
+  volume={29},
+  number={6},
+  pages={971-979},
+  year={2012},
+  publisher={Optical Society of America}
+}
 
+@INPROCEEDINGS{Vegni2012,
+    author={Vegni, A.M. and Little, T.D.C.},
+    booktitle={Computing, Networking and Communications (ICNC), 2012 International Conference on},
+    title={Handover in VLC systems with cooperating mobile devices},
+    year={2012},
+    month={Jan},
+    pages={126-130},
+    doi={10.1109/ICCNC.2012.6167395}
+}
+
+@INPROCEEDINGS{LiYY2012,
+    author={Li Y.Y. and Wang L.J. and Ning J.X. and Pelechrinis, K. and Krishnamurthy, S.V. and Xu Z.Y.},
+    booktitle={Mobile Adhoc and Sensor Systems (MASS), 2012 IEEE 9th International Conference on},
+    title={VICO: A framework for configuring indoor visible light communication networks},
+    year={2012},
+    month={Oct},
+    pages={136-144},
+    doi={10.1109/MASS.2012.6502511}
+}
+
+@article{HuangZT2012,
+  title={Efficient user access and lamp selection in LED-based visible light communication network},
+  author={Huang, Z.T. and Ji, Y.F.},
+  journal={Chinese Optics Letters},
+  volume={10},
+  number={5},
+  pages={050602},
+  year={2012},
+  publisher={Chinese Optical Society}
+}
+
+@article{LiuYang2014,
+  title={可见光室内环境下的组网策略研究},
+  author={刘阳, 赵华, 黄开枝, 季新生},
+  journal={电信科学},
+  volume={30},
+  number={1},
+  pages={8--14},
+  year={2014}
+}
+
+@INPROCEEDINGS{ZengLB2008,
+    author={Zeng L.B. and O'Brien, D. and Le-Minh H. and Lee K. and Jung D. and Oh Y.},
+    booktitle={Circuits and Systems for Communications, 2008. ICCSC 2008. 4th IEEE International Conference on},
+    title={Improvement of Date Rate by using Equalization in an Indoor Visible Light Communication System},
+    year={2008},
+    month={May},
+    pages={678-682},
+    doi={10.1109/ICCSC.2008.149}
+}
+
+@mastersthesis{WuXia2008,
+  title={基于LED的室内可见光通信系统 的研究与设计},
+  author={吴瑕},
+  year={2014},
+  school={华中师范大学},
+  address = {武汉},
+  owner = {Xin Huang},
+  timestamp = {2014.11.28}
+}
+
+@article{LiuXiaoFeng2010,
+  title={LTE组网技术及测试浅析},
+  author={刘晓峰},
+  journal={现代电信科技},
+  number={1},
+  pages={61--64},
+  year={2010}
+}
+
+@article{ZhouJianGuo2012,
+  title={自适应无线传感器网络室内定位算法研究},
+  author={周建国, 张鹏, 冯欣},
+  journal={大地测量与地球动力学},
+  volume={32},
+  number={2},
+  pages={74--77},
+  year={2012}
+}
+
+@article{HuangRuoHong2011,
+  title={基于无线传感器网络的室内定位系统},
+  author={宦若虹, 李义冬, 何晓慧, 陈庆章},
+  journal={机电工程},
+  volume={8},
+  pages={001},
+  year={2011}
+}
+
+@article{kahn1997,
+  title={Wireless infrared communications},
+  author={Kahn, J.M. and Barry, J.R.},
+  journal={Proceedings of the IEEE},
+  volume={85},
+  number={2},
+  pages={265-298},
+  year={1997},
+  publisher={IEEE}
+}
+
+@article{LiHaoLing2008ap,
+  title={AP技术发展与组网应用的研究},
+  author={李浩琳, 沈世锦, 张正风},
+  journal={电信科学},
+  volume={24},
+  number={5},
+  pages={26--32},
+  year={2008}
+}
+
+@inproceedings{yusof2013,
+  title={Hysteresis margin for handover in Long Term Evolution (LTE) network},
+  author={Yusof, A.L. and Ya'acob, N. and Ali, M.T.},
+  booktitle={Computing, Management and Telecommunications (ComManTel), 2013 International Conference on},
+  pages={426--430},
+  year={2013},
+  organization={IEEE}
+}
 
 
 
