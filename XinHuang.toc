@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {2.2}室内可见光通信系统概况}{7}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}可见光通信与传统室内光通信的比较}{7}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}可见光通信系统的链接方式}{8}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}可可见光通信信道分析}{10}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}可见光通信信道分析}{10}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}通信系统组网技术研究}{14}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}相关系统的组网方案}{14}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}室内光通信系统组网的问题}{15}{subsection.2.3.2}

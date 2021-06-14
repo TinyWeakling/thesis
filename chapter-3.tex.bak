@@ -100,11 +100,13 @@ LED的发展可以概括为由单一光向白光的转变，由低效率向高�
 由于第一点和第二点的目标函数是不能同时达到最优的，即系统不太可以在光照强度和光接收功率很均匀的情况下，获得最好的平均光接收功率，因此，本文的最优化模型也就变成了多目标优化的模型，如下式所示。
 
 \begin{equation}
+\begin{aligned}
     \max\quad & \left[f_{1}(x) \quad f_{2}(x)\right] \\
     \mbox{s.t.}\quad & 300\le minE_{or}(x) \le maxE_{or}(x) \le 1800 \\
            & 0 \le d \le 2   \\
            & 0 \le i \le 0.04 \\
-           & d+\frac{n-1}{2}*i \le L
+           & d+\frac{n-1}{2}*i \le L 
+\end{aligned}
 \end{equation}
 
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2014.6.12)  27 NOV 2014 22:28
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2014.6.12)  1 DEC 2014 18:23
 entering extended mode
 **XinHuang.tex
 (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\XinHuang.tex
@@ -1932,20 +1932,28 @@ File: figures/chapter-5/MovingUserNum2Complexity.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63])
-[64] (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\XinHuang.bbl) [65
+[64] (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\XinHuang.bbl
+
+Package xeCJK Warning: Unknown CJK family `tt' is ignored.
+Use \setCJKfamilyfont to define a CJK family. on input line 53.
+
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 53.
+
+(D:\CTEX\MiKTeX\tex\latex\euenc\eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [65
 
 
 
 
-]
+]) [66]
 No file XinHuang.ind.
-(C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\Resume.tex [66
-
-
-
-]
+(C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\Resume.tex
 Unknown feature `' in font `Times New Roman Bold'.
 ) [67
+
+
+
 
 ]
 (C:\Users\huangxin\Desktop\Master_Thesis_HuangXin\Acknowledgement.tex [68
@@ -1979,11 +1987,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 22475 strings out of 430486
- 357187 string characters out of 3191694
- 527009 words of memory out of 3000000
- 25082 multiletter control sequences out of 15000+200000
- 17011 words of font info for 130 fonts, out of 3000000 for 9000
+ 22625 strings out of 430486
+ 359968 string characters out of 3191694
+ 527877 words of memory out of 3000000
+ 25227 multiletter control sequences out of 15000+200000
+ 17019 words of font info for 131 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,14n,76p,769b,883s stack positions out of 5000i,500n,10000p,200000b,50000s
 

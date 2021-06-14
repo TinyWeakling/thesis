@@ -1,14 +1,202 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[许威(2005)]{Xuwei2005}
-许威.
-\newblock 未来移动通信系统中的自适应调制技术[D]:[Master's
+\bibitem[丁举鹏(2013)]{DingJuPeng2005}
+丁举鹏.
+\newblock 可见光通信室内信道建模及性能优化[D]:[PhD Thesis].
+\newblock 南京: 北京邮电大学, 2013.
+
+\bibitem[Komine and Nakagawa(2004)]{KomineT2004}
+Komine T, Nakagawa M.
+\newblock Fundamental analysis for visible-light communication system using LED
+  lights[J].
+\newblock Consumer Electronics, IEEE Transactions on, 2004, 50(1):100--107.
+
+\bibitem[宋正勋(2008)]{SongZhengXun2008}
+宋正勋.
+\newblock 基于白光LED的室内可见光通信系统研究[D]:[Master's
   Thesis].
-\newblock 南京: 东南大学, 2005.
+\newblock 长春: 长春理工大学, 2008.
+
+\bibitem[陈然(2013)]{ChenRan2013}
+陈然.
+\newblock 室内照明通信系统的数学模型及其仿真[D]:[Master's
+  Thesis].
+\newblock 南京: 南京邮电大学, 2013.
+
+\bibitem[薛晓满(2014)]{XueXiaoMan2014}
+薛晓满.
+\newblock 白色LED室内可见光通信系统研究[D]:[Master's Thesis].
+\newblock 成都: 电子科技大学, 2014.
+
+\bibitem[Huang and Ji(2012)]{HuangZT2012}
+Huang Z, Ji Y.
+\newblock Efficient user access and lamp selection in LED-based visible light
+  communication network[J].
+\newblock Chinese Optics Letters, 2012, 10(5):050602.
+
+\bibitem[Tanaka et al.(2000)]{Tanaka2000}
+Tanaka Y, Haruyama S, Nakagawa M.
+\newblock Wireless optical transmissions with white colored LED for wireless
+  home links[C].
+\newblock In: Personal, Indoor and Mobile Radio Communications, 11th IEEE
+  International Symposium.
+\newblock 2000. 2:1325 -- 1329.
+
+\bibitem[VLCC(2014)]{VLCC}
+VLCC.
+\newblock Visible Light Communications Consotium (VLCC)[EB/OL].
+\newblock \url{http://www.vlcc.net}, 2014.
+
+\bibitem[OMEGA(2014)]{OMEGA}
+OMEGA.
+\newblock Home gigabit access project[EB/OL].
+\newblock \url{http://www.ict-omega.eu/}, 2014.
+
+\bibitem[Le~Minh et al.(2009)]{le2009}
+Le~Minh H, O'Brien D, Faulkner G, et al.
+\newblock 100-Mb/s NRZ visible light communications using a postequalized white
+  LED[J].
+\newblock Photonics Technology Letters, IEEE, 2009, 21(15):1063--1065.
+
+\bibitem[Azhar et al.(2010)]{azhar2010}
+Azhar A, Tran T, O'Brien D.
+\newblock Demonstration of high-speed data transmission using MIMO-OFDM visible
+  light communications[C].
+\newblock In: GLOBECOM Workshops (GC Wkshps), 2010 IEEE.
+\newblock 2010. 1052--1056.
+
+\bibitem[Vucic et al.(2010)]{vuvcic2010}
+Vucic J, Kottke C, Nerreter S, et al.
+\newblock 513 Mbit/s visible light communications link based on DMT-modulation
+  of a white LED[J].
+\newblock Journal of Lightwave Technology, 2010, 28(24):3512--3518.
+
+\bibitem[Vucic et al.(2011)]{vucic2011}
+Vucic J, Kottke C, Habel K, et al.
+\newblock 803 Mbit/s visible light WDM link based on DMT modulation of a single
+  RGB LED luminary[C].
+\newblock In: Optical Fiber Communication Conference.
+\newblock 2011. OWB6.
+
+\bibitem[UC-Light(2014)]{UcLight}
+UC-Light.
+\newblock Cnter for ubuquitous Communication by light[EB/OL].
+\newblock \url{http://www.uclight.ucr.edu/}, 2014.
+
+\bibitem[Azizan et al.(2012)]{AzizanLA2012}
+Azizan L~H, Ab-Rahman M, Jumiran K.
+\newblock Analytical approach on SNR performance of visible light communication
+  for modern lighting layout[C].
+\newblock In: Innovation Management and Technology Research (ICIMTR), 2012
+  International Conference on.
+\newblock 2012. 332--336.
+
+\bibitem[丁德强(2007)]{DingDeQiang2007}
+丁德强 , 柯熙政.
+\newblock VLC系统的光源布局设计与仿真研究[J].
+\newblock 光电工程, 2007, 34(1):131--134.
+
+\bibitem[Ding and Ji(2012)]{DingJP20121}
+Ding J, Ji Y.
+\newblock Evolutionary algorithm-based optimisation of the signal-to-noise
+  ratio for indoor visible-light communication utilising white light-emitting
+  diode[J].
+\newblock Optoelectronics, IET, 2012, 6(6):307--317.
+
+\bibitem[Ding et al.(2012)]{DingJP20122}
+Ding J, Huang Z, Ji Y.
+\newblock Evolutionary algorithm based uniform received power and illumination
+  rendering for indoor visible light communication[J].
+\newblock JOSA A, 2012, 29(6):971--979.
+
+\bibitem[Vegni and Little(2012)]{Vegni2012}
+Vegni A, Little T.
+\newblock Handover in VLC systems with cooperating mobile devices[C].
+\newblock In: Computing, Networking and Communications (ICNC), 2012 IEEE
+  International Conference on.
+\newblock 2012. 126--130.
+
+\bibitem[Li et al.(2012)]{LiYY2012}
+Li Y, Wang L, Ning J, et al.
+\newblock VICO: A framework for configuring indoor visible light communication
+  networks[C].
+\newblock In: Mobile Adhoc and Sensor Systems (MASS), 2012 IEEE 9th
+  International Conference on.
+\newblock 2012. 136--144.
+
+\bibitem[胡国永(2006)]{hu2006}
+胡国永 , 陈长缨.
+\newblock 白光LED照明光源用作室内无线通信研究[J].
+\newblock 光通信技术, 2006, 30(7):46--48.
+
+\bibitem[陈特(2013)]{ChenTe2013}
+陈特 , 刘璐.
+\newblock 可见光通信的研究[J].
+\newblock 中兴通讯技术, 2013, 19(1):49--52.
+
+\bibitem[丁德强(2010)]{Ding2010}
+丁德强 .
+\newblock 一种通用白光LED数学发光模型研究[J].
+\newblock 光学学报, 2010, 30(9):2536--2540.
+
+\bibitem[中华人名共和国科技部(2014)]{VlcProject}
+中华人名共和国科技部.
+\newblock
+  “十二五”国家863计划“可见光通信系统关键技术研究”主题项目正式启动[EB/OL].
+\newblock \url{http://www.most.gov.cn/kjbgz/201305/t20130510_102624.htm}, 2014.
+
+\bibitem[新华网(2014)]{Lifi}
+新华网.
+\newblock 复旦大学成功研制Lifi[EB/OL].
+\newblock \url{http://news.xinhuanet.com/video/2013-10/17/c_125552318.htm},
+  2014.
+
+\bibitem[Kahn and Barry(1997)]{kahn1997}
+Kahn J, Barry J.
+\newblock Wireless infrared communications[J].
+\newblock Proceedings of the IEEE, 1997, 85(2):265--298.
+
+\bibitem[梅卫平(2011)]{Mei2011}
+梅卫平.
+\newblock 基于白光LED的可见光通信系统的研究[D]:[Master's
+  Thesis].
+\newblock 长沙: 中南大学, 2011.
+
+\bibitem[吴瑕(2014)]{WuXia2014}
+吴瑕.
+\newblock
+  基于LED的室内可见光通信系统的研究与设计[D]:[Master's
+  Thesis].
+\newblock 武汉: 华中师范大学, 2014.
+
+\bibitem[于志刚(2009)]{Yu2009}
+于志刚.
+\newblock 白光LED通信接收系统关键技术研究[D]:[PhD Thesis].
+\newblock 广州: 暨南大学, 2009.
+
+\bibitem[丁德强(2006)]{DingDQ2006}
+丁德强 .
+\newblock 可见光通信及其关键技术研究[J].
+\newblock 半导体光电, 2006, 27(2):114--117.
+
+\bibitem[刘晓峰(2010)]{LiuXiaoFeng2010}
+刘晓峰.
+\newblock LTE组网技术及测试浅析[J].
+\newblock 现代电信科技, 2010, 40(1):61--64.
+
+\bibitem[李浩琳(2008)]{LiHaoLing2008ap}
+李浩琳 , 沈世锦.
+\newblock AP技术发展与组网应用的研究[J].
+\newblock 电信科学, 2008, 24(5):26--32.
+
+\bibitem[刘阳(2014)]{LiuYang2014}
+刘阳 , 赵华.
+\newblock 可见光室内环境下的组网策略研究[J].
+\newblock 电信科学, 2014, 30(1):8--14.
 
 \end{thebibliography}
